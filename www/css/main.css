@@ -1,0 +1,174 @@
+* {
+    /*I did'nt specify a font family cause I wanna use the default font in my phone.*/
+    font-family: "微软雅黑";
+    webkit-overflow-scrolling: touch;
+}
+
+body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.inner-wrapper {
+    width: 1080px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+
+/*nav bar related goes here*/
+.nav-bar {
+    background: #fff;
+    height: 168px;
+    line-height: 168px;
+    width: 1080px;
+
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-bar > .title {
+    color: #212121;
+    font-size: 60px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.nav-button {
+    width: 63px;
+    height: 63px;
+    padding: 50px 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+
+/*tab var related goes here*/
+.selected {
+    color: #03a9f4;
+}
+
+.unselected {
+    color: #808080;
+}
+
+.tab {
+    height: 162px;
+    line-height: 162px;
+    width: 360px;
+    font-size: 42px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    background: #fff;
+}
+
+.selected::after {
+    content: '';
+    background: #03a9f4;
+    height: 6px;
+    width: 360px;
+    top: 160px;
+    display: block;
+}
+
+.tab-bar {
+    font-size: 0;
+    width: 1080px;
+    height: 166px;
+    box-shadow: 0 0 10px #808080;
+    position: fixed;
+    top: 168px;
+
+    z-index: 999;
+}
+
+/*float button*/
+.float-button {
+    height: 168px;
+    width: 168px;
+    border-radius: 84px;
+    background: #03a9f4 url("../img/ic_add_24px.svg") center no-repeat;
+    background-size: 76px;
+    position: fixed;
+    right: 48px;
+    bottom: 48px;
+    box-shadow: 0 20px 25px #808080;
+}
+
+/*content*/
+.content {
+    padding-top: 336px;
+}
+
+/*colors*/
+.svg-gray {
+    fill: #bebebe;
+}
+
+.svg-star {
+    fill: #bebebe;
+}
+
+.svg-blue {
+    fill: #03a9f4;
+}
+
+.svg-red {
+    fill: #f44336;
+}
+
+/*pages*/
+div.page {
+    position: relative;
+    display: none;
+}
+
+div.center-page {
+    display: block;
+}
+
+div.menu-modal {
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    font-size: 0;
+    box-shadow: 0 10px 25px #808080;
+}
+
+div.menu-modal-item {
+    width: 540px;
+    height: 140px;
+    font-size: 45px;
+    background: #eeeeee;
+    color: #212121;
+    padding-left: 55px;
+    line-height: 140px;
+}
+
+
+span.todos-menu-wrapper-blank {
+    position: absolute;
+    display: block;
+    top: -25px;
+    bottom: 0;
+    left: -450px;
+    width: 1080px;
+    height: 4000px;
+    background: transparent;
+    z-index: -1;
+}

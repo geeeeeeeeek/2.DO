@@ -1,0 +1,54 @@
+<div class="homepage">
+    <div class="nav-bar">
+        <span class="title">2.DO</span>
+        <!--Only shows when adding a new item-->
+        <div class="todos-new-wrapper" style="display: none">
+            <input class="todos-new" placeholder="I want to..."/>
+            <img src="img/ic_done_24px.svg" class="nav-button right button-done">
+            <span class="todos-new-wrapper-blank"></span>
+        </div>
+
+        <img src="img/ic_more_vert_24px.svg" class="nav-button right button-more"/>
+        <!--Only shows when menu button triggered-->
+        <div class="menu-modal" style="display: none">
+            <div class="menu-modal-item button-complete-all">Mark all completed</div>
+            <div class="menu-modal-item button-clear-all">Clear all completed</div>
+            <div class="menu-modal-item button-clear-history">Clear my history</div>
+            <span class="todos-menu-wrapper-blank"></span>
+        </div>
+    </div>
+
+    <div class="tab-bar">
+        <div class="tab selected" id="todo-tab">TODO</div>
+        <div class="tab unselected" id="done-tab">DONE</div>
+        <div class="tab unselected" id="me-tab">ME</div>
+    </div>
+    <div class="content">
+        <div class="page center-page" id="todo-page">
+            <!--todo items here-->
+        </div>
+        <div class="page" id="done-page">
+            <!--done items here-->
+        </div>
+        <div class="page" id="me-page">
+            <div class="me-card me-history">
+                <div class="me-card-title">My History</div>
+                <div class="me-items">
+                    <!--history items here-->
+                </div>
+                <div class="me-card-more-todo">
+                    <img src="img/ic_more_horiz_24px.svg" class="me-icon">
+                    <span class="me-card-more-text">All my todos</span>
+                    <span class="me-card-more-num">(0)</span>
+                </div>
+                <div class="me-card-more-done">
+                    <img src="img/ic_more_horiz_24px.svg" class="me-icon">
+                    <span class="me-card-more-text">All I've done</span>
+                    <span class="me-card-more-num">(0)</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="float-button button-add" id="todo-add"></div>
+    </div>
+</div>

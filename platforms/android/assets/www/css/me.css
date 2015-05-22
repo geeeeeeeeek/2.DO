@@ -1,0 +1,56 @@
+div.me-card {
+    /*width: 1080px;*/
+    margin: auto;
+    border-bottom: rgba(128, 128, 128, 0.1) solid 1px;
+    padding: 45px 50px 0 50px;
+}
+
+div.me-card-title {
+    color: #a6a6a6;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+div.me-item {
+    /*width: 1080px;*/
+}
+
+span.me-item-text, span.me-item-time {
+    padding-left: 65px;
+    font-size: 45px;
+    color: #000;
+    line-height: 140px;
+    vertical-align: middle;
+}
+
+span.me-item-time {
+    width: 80px;
+    display: inline-block;
+}
+
+div.me-card-more-todo, div.me-card-more-done {
+    /*width: 1080px;*/
+}
+
+img.me-icon {
+    width: 80px;
+    height: 80px;
+    padding-left: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.me-card-more-text {
+    padding-left: 50px;
+    font-size: 45px;
+    color: #03a9f4;
+    line-height: 140px;
+    vertical-align: middle;
+}
+
+span.me-card-more-num {
+    font-size: 45px;
+    color: #03a9f4;
+    line-height: 140px;
+    vertical-align: middle;
+}

@@ -1,0 +1,75 @@
+<div class="todo-item">
+    <div class="todo-item-title-line">
+        <!--Text-->
+        <span class="todo-item-text"><%= text%></span>
+        <input class="todo-item-text-editor" placeholder="I want to..." style="display: none">
+
+        <!--Modify button-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+             class="todo-item-modify" style="display: none">
+            <path class="svg-gray"
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+
+        <!--Star button-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="6 4 14 14"
+             class="todo-item-star" style="display: none">
+            <path class="svg-star"
+                  d="M12 14.3l3.71 2.7-1.42-4.36 3.71-2.64h-4.55l-1.45-4.5-1.45 4.5h-4.55l3.71 2.64-1.42 4.36z"></path>
+            <path d="M0 0h24v24h-24z" fill="none"></path>
+        </svg>
+        <div class="todo-item-more" style="display: none">
+            <span class="todo-item-category"><%= category%></span>
+            &nbsp;|&nbsp;
+            <span class="todo-item-time"><%= time%></span>
+        </div>
+        <input class="todo-item-tag-modal" placeholder="WORK" style="display: none"/>
+    </div>
+    <div class="todo-item-func-line" style="display: none">
+        <!--Complete button-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+             class="todo-item-complete">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path class="svg-blue"
+                  d="M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z"></path>
+        </svg>
+   t     <!--Tag button-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+             class="todo-item-tag">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path class="svg-blue"
+                  d="M2 20h20v-4H2v4zm2-3h2v2H4v-2zM2 4v4h20V4H2zm4 3H4V5h2v2zm-4 7h20v-4H2v4zm2-3h2v2H4v-2z"></path>
+        </svg>
+
+        <!--Unimplemented-->
+        <!--Notes button-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+             class="todo-item-notes">
+            <path class="svg-gray"
+                  d="M16.5 6v11.5c0 2.21-1.79 4-4 4s-4-1.79-4-4V5c0-1.38 1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5v10.5c0 .55-.45 1-1 1s-1-.45-1-1V6H10v9.5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V5c0-2.21-1.79-4-4-4S7 2.79 7 5v12.5c0 3.04 2.46 5.5 5.5 5.5s5.5-2.46 5.5-5.5V6h-1.5z"></path>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+
+        <!--Unimplemented-->
+        <!--Clock button-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+             class="todo-item-clock">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path class="svg-gray"
+                  d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"></path>
+        </svg>
+
+
+        <!--Delete button-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+             class="todo-item-delete">
+            <path class="svg-red" d="M19 13H5v-2h14v2z"></path>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+
+
+    </div>
+</div>
+
+
