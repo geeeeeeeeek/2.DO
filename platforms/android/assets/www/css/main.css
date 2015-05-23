@@ -2,6 +2,10 @@
     /*I did'nt specify a font family cause I wanna use the default font in my phone.*/
     font-family: "微软雅黑";
     webkit-overflow-scrolling: touch;
+
+    /*Disable selection for the whole web page, selectable only when override*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
 }
 
 body {
@@ -80,7 +84,7 @@ body {
 .selected::after {
     content: '';
     background: #03a9f4;
-    height: 6px;
+    height: 8px;
     width: 360px;
     top: 160px;
     display: block;

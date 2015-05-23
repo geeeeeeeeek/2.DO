@@ -21,6 +21,9 @@ span.me-item-text, span.me-item-time {
     color: #000;
     line-height: 140px;
     vertical-align: middle;
+
+    /*User selectable*/
+    -webkit-user-select: initial;
 }
 
 span.me-item-time {

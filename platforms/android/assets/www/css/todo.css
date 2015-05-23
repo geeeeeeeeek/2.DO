@@ -10,6 +10,12 @@ span.todo-item-text {
     display: inline-block;
     line-height: 180px;
     vertical-align: middle;
+    overflow: hidden;
+    max-width: 800px;
+    max-height: 180px;
+
+    /*User selectable*/
+    -webkit-user-select: initial;
 }
 
 input.todo-item-text-editor {
@@ -60,11 +66,16 @@ div.todo-item-more {
 }
 
 span.todo-item-category {
+    max-width: 700px;
+    max-height: 40px;
+    display: inline-block;
+    overflow-x: hidden;
     font-weight: bold;
+    vertical-align: middle;
 }
 
 span.todo-item-time {
-
+    vertical-align: middle;
 }
 
 /*func line*/
@@ -117,7 +128,7 @@ input.todo-item-tag-modal {
     left: 65px;
     background: #ffffff;
     width: 800px;
-    height: 40px;
+    height: 45px;
     vertical-align: middle;
     border: none;
     outline: none;

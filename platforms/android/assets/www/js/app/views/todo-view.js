@@ -112,13 +112,16 @@ define(['text!html/homepage/todo-item.html', 'app/models/todo'],
                 if (!this.enabled)
                     return;
 
-                this.toggleEnable();
-
                 this.model.destroy();
+
+                this.toggleEnable();
 
             },
 
             startEditingText: function (ev) {
+                if (!this.enabled)
+                    return;
+
                 ev.stopPropagation();
                 this.$('.todo-item-text-editor').val(this.model.get('text'))
                     .css('display', 'block').focus();
