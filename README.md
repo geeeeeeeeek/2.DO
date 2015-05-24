@@ -8,7 +8,7 @@ Also note that the app is still under development. This time released was a mini
 
 The project was originally intended for applying for the internship of Teambition. Since I do need a cross-platform TODO app and am also not sure if I will be admitted to Teambition(QAQ)... I might keep working on it for at least a month. Hope the app will be much robuster but as simplified at that time!
 
-###Update plan for May.24(Fri)
+###Update plan for May.29(Fri)
 1. Add a feature that you can attach a photo with a TODO.
 2. Add swipe gesture to switch among tabs.
 3. Optimize UI details and fix bugs.
