@@ -6,14 +6,11 @@ Finished all the work in one day and a half haha! Detailed instructions and docu
 
 Also note that the app is still under development. This time released was a minimum viable product, still with some bugs to cover.
 
-The project was originally intended for applying for the internship of Teambition. Since I do need a cross-platform TODO app and am also not sure if I will be admitted to Teambition(QAQ)... I might keep working on it for at least a month. Hope the app will be much robuster but as simplified at that time!
+The project was originally intended for applying for the internship of Teambition. Since I do need a cross-platform TODO app and am also not sure if I will be admitted to Teambition(QAQ)... I might keep working on it. Hope the app will be much robuster but as simplified at that time!
 
-###Update plan for May.29(Fri)
-1. Add a feature that you can attach a photo with a TODO.
-2. Add swipe gesture to switch among tabs.
-3. Optimize UI details and fix bugs.
-
-The TODO timer and TODO color tag will come early in June. Since I'm really busy these days.  
+####Sept.14 update
+The app will not be updated or modified (Since I got the internship).
+And since the code is very simple, it is suitable for beginners to learn the backbone MVVM or the Cordova platform.
 
 ###Here are some screenshots.
 
